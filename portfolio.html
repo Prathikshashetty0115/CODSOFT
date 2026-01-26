@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body {
+      line-height: 1.6;
+      background-color: #f4f4f4;
+      color: #333;
+    }
+
+    header {
+      background: #222;
+      color: #e6f0ff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 10px;
+      font-size: 1.1rem;
+      color: #ccc;
+    }
+
+    section {
+      padding: 40px 20px;
+      max-width: 1000px;
+      margin: auto;
+      background: #e6f0ff;
+      margin-bottom: 20px;
+      border-radius: 8px;
+    }
+
+    section h2 {
+      margin-bottom: 20px;
+      color: #222;
+      border-bottom: 2px solid #eee;
+      padding-bottom: 10px;
+    }
+
+    /* About */
+    .about-container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 20px;
+    }
+
+    .about-container img {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      object-fit: cover;
+    }
+
+    /* Skills */
+    .skills-list {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 10px;
+    }
+
+    .skills-list span {
+      background: #222;
+      color: #e6f0ff;
+      padding: 8px 15px;
+      border-radius: 20px;
+      font-size: 0.9rem;
+    }
+
+    /* Projects */
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      border: 1px solid #ddd;
+      border-radius: 8px;
+      overflow: hidden;
+      background: #fafafa;
+    }
+
+    .project-card img {
+      width: 100%;
+      height: 150px;
+      object-fit: cover;
+    }
+
+    .project-card div {
+      padding: 15px;
+    }
+
+    /* Resume */
+    .resume a {
+      display: inline-block;
+      background: #222;
+      color: #e6f0ff;
+      padding: 10px 20px;
+      text-decoration: none;
+      border-radius: 5px;
+    }
+
+    /* Contact */
+    .contact p {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #222;
+      color: #ccc;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Prathiksha Shetty.S</h1>
+    <p>CodSoft Internship Applicant | Web Development & Programming</p>
+  </header>
+
+  <!-- About Section -->
+  <section id="about">
+    <h2>About Me</h2>
+    <div class="about-container">
+      <p>
+        Hello! I am a motivated student applying for the CodSoft Internship Program. I have hands-on experience with HTML, CSS, Python, and basic programming concepts. I enjoy building clean, user-friendly projects and continuously improving my technical skills through real-world tasks and internships.
+      </p>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills">
+    <h2>Skills</h2>
+    <div class="skills-list">
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>HTML</span>
+      <span>CSS</span>
+      <span>Python</span>
+      <span>Java</span>
+      <span>MySQL</span>
+      <span>Problem Solving</span>
+      <span>Git & GitHub</span>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects">
+      <div class="project-card">
+        <div>
+          <h3>Arduino Distance Measurement System</h3>
+          <p>Designed and implemented a distance measurement setup using ultrasonic sensors and Arduino.</p>
+        </div>
+      </div>
+
+      <div class="project-card">
+        <div>
+          <h3>Raspberry Pi Waste Management Detection</h3>
+          <p>Developed an IoT-enabled waste management system using Raspberry Pi and sensors.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="resume">
+    <h2>Resume</h2>
+    <a href="c:\Users\PRATHIKSHA SHETTY S\Downloads\Prathiksha resume .pdf" download>Download My Resume (PDF)</a>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <p>Email: prathikshashetty520@email.com</p>
+    <p>Phone: +91 7022515473</p>
+  </section>
+
+  <footer>
+    <p>© 2026 Prathiksha Shetty.S | CodSoft Internship Portfolio</p>
+  </footer>
+
+</body>
+</html>
